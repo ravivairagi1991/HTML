@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+}
+
+nav{
+    background-color: #000000;
+    margin-bottom: 1rem;
+}
+
+nav ul{
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;    
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;    
+    margin-right: 2%;
+}
+
+nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #e3191c;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    padding-right: 2%;
+}
+
+article img{
+    width: 100%;
+}
+
+.banner{  
+    background-image: url(../banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    height: 40rem;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-top: 5%;
+    text-align: center;        
+}
+
+footer{
+    align-items: center;
+    border: 2px solid #000000;
+    justify-content: end;
+    display: flex;   
+    margin-top: 2rem;
+    padding: 0.5rem;        
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div p{
+    text-align: right;
+}
+
